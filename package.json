@@ -1,10 +1,13 @@
 {
   "devDependencies": {
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "npm run check && vite build",
+    "check": "prettier --check . && tsc --noEmit",
+    "prettier:update": "prettier --write ."
   }
 }

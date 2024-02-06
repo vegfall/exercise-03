@@ -1,3 +1,3 @@
 export default {
-    base: "exercise-03"
-}
+  base: "exercise-03",
+};
