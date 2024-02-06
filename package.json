@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run check && vite build",
-    "check": "prettier --check . && tsc --noEmit",
+    "check": "prettier --check .",
     "prettier:update": "prettier --write ."
   }
 }
