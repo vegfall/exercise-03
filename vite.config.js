@@ -1,3 +1,3 @@
 export default {
-    base: "course-03"
+    base: "exercise-03"
 }
